@@ -1,0 +1,19 @@
+{
+  "name": "pdf-accessibility-checker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@axe-core/puppeteer": "^4.10.1",
+    "next": "15.3.2",
+    "pdfjs-dist": "^5.2.133",
+    "puppeteer": "^24.8.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
